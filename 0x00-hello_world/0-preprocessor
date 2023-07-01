@@ -1,7 +1,3 @@
-#!/bin/bash
-
 CFILE="main.c"
-OUTPUT="c"
-
-gcc -E $CFILE -o $OUTPUT
+gcc -E $CFILE -o "c"
 
